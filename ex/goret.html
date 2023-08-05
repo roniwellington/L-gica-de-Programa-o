@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+<script type="text/javascript">
+	function pulaLinha() {
+		document.write("<br>");
+	}
+
+
+	function mostra(frase) {
+		document.write(frase);
+		pulaLinha();
+	}
+
+
+	var convidados = prompt("Números de convidados");
+	var vips = prompt("Números de convidados VIP's");
+
+	var total = convidados + vips;
+	mostra("O total de convidados é " + total);
+
+	
+</script>
